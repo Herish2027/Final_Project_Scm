@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MUSIC PLAYER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontpage.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MeloSphere</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#reviewmodal"
+                                    href="#">Rate
+                                    us</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#support">Support</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#writeforus"
+                                    href="#">Write for us</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="modal fade" id="writeforus" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="writeforus" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">WRITE FOR US 😊</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <textarea name="address" id="address " rows="20" cols="50"
+                        placeholder="FEEL FREE TO WRITE. EVERY WORDS MATTERS US A LOT."></textarea> </td>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thanks!</button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="support" tabindex="-1" aria-labelledby="support" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">SUPPORT</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="inputcomplain" class="form-label">COMPLAINT BOX</label>
+                            <input type="text" class="form-control" id="inputcomplaint"
+                                placeholder="--complaint box-- ">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputnew" class="form-label"> What changes we can do further</label>
+                            <input type="text" class="form-control" id="inputnew"
+                                placeholder="--we appreciate your efforts--">
+                        </div>
+
+                        <p>Would you recommend our site to others</p>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">YES👍👍</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                            <label class="form-check-label" for="exampleCheck2"> NO👎👎</label>
+                        </div>
+
+
+
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SUBMIT</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="reviewmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="reviewmodal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">RATE US</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+
+                    <input type="radio" id="1star" name="rateus" value="1star">
+                    <label for="1star">⭐</label>
+                    <br>
+                    <input type="radio" id="2star" name="rateus" value="2star">
+                    <label for="2star">⭐⭐</label>
+                    <br>
+                    <input type="radio" id="3star" name="rateus" value="3star">
+                    <label for="3star">⭐⭐⭐</label>
+                    <br>
+                    <input type="radio" id="4star" name="rateus" value="4star">
+                    <label for="4star">⭐⭐⭐⭐</label>
+                    <br>
+                    <input type="radio" id="4star" name="rateus" value="5star">
+                    <label for="5star">⭐⭐⭐⭐⭐</label>
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thanks! It matters a
+                        lot</button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <main class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+            <div class="col-lg-6 px-0">
+                <h1 class="display-4 ">THE WORLD OF MUSIC</h1>
+                <p class="lead my-3">“Where words leave off, music begins.” — Heinrich Heine</p>
+                <p class="lead my-3"> Music is a pleasant sound which is a combination of melodies and
+                    harmony and which soothes you. So lets explore the world of music.</p>
+                <p class="lead mb-0"><a href="#" class="btn btn-primary my-2">Let's go</a></p>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <h3 class="mb-0">WORKS OFFLINE</h3>
+
+                        <p class="card-text mb-auto">Provide an option for users
+                            to download
+                            music for offline listening, allowing them to enjoy their favorite tracks even without an
+                            internet
+                            connection.</p>
+
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2J3holp9x4mkVgTjX-XoWP65YccT3vHbngLH-X6FimdcOogLseDGOTjtUQv18q5lBesg&usqp=CAU"
+                            class="card-img-top" alt="..." Height="200px" width="400px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+
+                        <h3 class="mb-0"> MUSIC STREAMING</h3>
+
+                        <p class="mb-auto">Allow users to stream music online, offering an extensive library of songs
+                            and
+                            albums from various genres. Users can create playlists, discover new music, and enjoy
+                            uninterrupted
+                            playback.</p>
+
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="https://images.unsplash.com/photo-1614963326505-843868e1d83a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80"
+                            class="card-img-top" alt="..." Height="200px" width="400px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <h3 class="mb-0">PLAYLISTS and COLLECTIONS</h3>
+
+                        <p class="card-text mb-auto"> Enable users to create and curate their playlists and music
+                            collections and broaden their musical horizons.</p>
+
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="https://w0.peakpx.com/wallpaper/1007/918/HD-wallpaper-retro-music-player-80s-pioneer-record-tape-technology.jpg"
+                            class="card-img-top" alt="..." Height="200px" width="400px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+
+                        <h3 class="mb-0">MUSIC DISCOVERY</h3>
+
+                        <p class="mb-auto">Offer curated playlists, and "similar artist" features
+                            to
+                            help users explore new music and broaden their musical horizons.</p>
+
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2J3holp9x4mkVgTjX-XoWP65YccT3vHbngLH-X6FimdcOogLseDGOTjtUQv18q5lBesg&usqp=CAU"
+                            class="card-img-top" alt="..." Height="200px" width="400px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+
+        <div class="row g-5">
+            <div class="col-md-8">
+                <h1 class="pb-4 mb-4  border-bottom" style="font-size: 50px;">MELOSPHERE
+
+                </h1>
+
+                <article class="blog-post">
+                    <h2 class="display-5 link-body-emphasis mb-1">Harmonizing Emotions: The Timeless Tapestry of Music
+                    </h2>
+
+
+                    <p>Music, a universal language that transcends boundaries and connects hearts, has been an integral
+                        part of human culture for centuries. It serves as a powerful medium for self-expression,
+                        storytelling, and emotional release. From the rhythmic beats echoing through ancient tribal
+                        gatherings to the symphonic masterpieces gracing grand concert halls, music has evolved, leaving
+                        an indelible mark on the human experience.
+                    </p>
+                    <hr>
+                    <p>Music, often hailed as the language of emotion, possesses the remarkable ability to convey
+                        feelings that words alone cannot express. Whether it's the joyous melodies of a celebratory
+                        anthem, the melancholic strains of a soulful ballad, or the electrifying beats of a dance track,
+                        each genre encapsulates a unique emotional journey.</p>
+                    <br>
+                    <hr><br>
+                    <h1>Features</h1>
+                    <p>MeloSphere offers various feature such as:</p>
+
+                    <p>
+                    <ul>
+                        <li>Intuitive Interface: A user-friendly design that allows easy navigation and quick access to
+                            essential functions.</li>
+
+                        <li> Management: The ability to create, edit, and organize playlists, facilitating a
+                            personalized music experience.</li>
+
+                        <li> Offline Mode: Support for offline listening, enabling users to enjoy their favorite tracks
+                            without an internet connection.</li>
+
+                        <li> Cross-Platform Sync: Seamless synchronization across multiple devices, ensuring a
+                            consistent
+                            music library experience.</li>
+
+                        <li> Equalizer Settings: Customizable equalizer settings for users to fine-tune audio
+                            preferences
+                            based on their musical taste.</li>
+
+
+                    </ul>
+                    </p><br>
+                    <hr><br>
+                    <h1>DESIGN</h1>
+                    <p>MeloSphere offers you:</p>
+
+                    <p>
+                    <ul>
+                        <li>Minimalist Aesthetics: A clean and uncluttered design that focuses on essential elements,
+                            creating an aesthetically pleasing interface.
+
+                        </li>
+
+                        <li>Album Art Display: Showcase album artwork prominently for a visually engaging and immersive
+                            experience.
+
+                        </li>
+
+                        <li>Gesture Controls: Incorporate intuitive gesture controls for easy and convenient playback
+                            management.
+
+                        </li>
+
+                    </ul>
+                    </p>
+                    <br>
+                    <hr><br>
+                    <h1>FUNCTIONALITY</h1>
+                    <p>Major function that you will come through while exploring MeloSphere:</p>
+
+                    <p>
+                    <ul>
+                        <li>Cross-Format Support: Compatibility with various audio file formats to accommodate a diverse
+                            range of music libraries.
+
+                        </li>
+
+                        <li>Background Playback: Enable users to listen to music while using other apps or when the
+                            device is locked
+
+                        </li>
+                        <li>Seamless Integration: Integration with popular streaming services, allowing users to access
+                            a vast library of songs.</li>
+
+                        <li>Offline Downloads: The ability to download and store music locally for offline playback,
+                            especially useful for users with limited internet access
+
+                        </li>
+
+                    </ul>
+                    </p>
+                </article><br><br>
+                <hr><br><br>
+
+
+                <div class="container marketing">
+                    <h1
+                        style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: bolder;color: lightgrey; font-size:70px;">
+                        From pen to a music</h1>
+                    <br>
+                    <br>
+
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="picture "
+                                src="https://media.npr.org/assets/music/news/2010/06/eminem-52893634f7c035450a7b5ff2e040cacb4012395e-s1100-c50.jpg">
+
+                            <h2 class="fw-normal" style="text-align: center;">Eminem </h2>
+                            <p>“If people take anything from my music, it should be motivation to know that anything is
+                                possible as
+                                long as you keep working at it and don't back down.”</p>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="picture "
+                                src="https://hips.hearstapps.com/hmg-prod/images/pchelenepambrun-resized-1576190436.jpg?crop=1.00xw:0.668xh;0,0&resize=1200:*">
+
+                            <h2 class="fw-normal" style="text-align: center;">Harry Styles</h2>
+                            <p>“That's the amazing thing about music: there's a song for every emotion. Can you imagine
+                                a world with
+                                no music? It would suck.”--Harry Styles </p>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="picture"
+                                src="https://adda247-wp-multisite-assets.s3.ap-south-1.amazonaws.com/wp-content/uploads/multisite/sites/5/2023/04/07110439/Sitar_Virtuoso_Ravi_Shankarjpg_trans_NvBQzQNjv4BqVq7v3XiGTWaNhf-5XDoWgLFa-frALSGtsvg45OlHsxo.jpg">
+
+                            <h2 class="fw-normal" style="text-align: center;">Ravi Shankar</h2>
+                            <p>"The music that I have learnt is like workship god. It's absolutely like a prayer."--Ravi
+                                Shankar</p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-body-tertiary rounded">
+                        <h4 class="fst-italic">About</h4>
+                        <p class="mb-0">MeloSphere is a user user-friendly website that helps you find what you listen.
+                            As we continue to explore the diverse sounds that surround us, let us celebrate the
+                            universal language that unites us all—the language of music with one and only
+                            <strong>MeloSphere</strong>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="fst-italic">Recently added songs</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b27371fa6a2d1d734d34a24013ee"
+                                        class="bd-placeholder-img" width="100%" height="96">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">EK RAAT-VILEN</h6>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img class="bd-placeholder-img" width="100%" height="96"
+                                        src="https://c.saavncdn.com/522/Prada-Punjabi-2018-20220803074505-500x500.jpg">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">PRADA-JASS MANAK</h6>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img class="bd-placeholder-img" width="100%" height="96"
+                                        src="https://a10.gaanacdn.com/gn_img/albums/R7vKX66Wmr/7vKXeL1z3m/size_l.jpg">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">YUMMY-JUSTIN BIEBER</h6>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img class="bd-placeholder-img" width="100%" height="96"
+                                        src="https://c.saavncdn.com/142/A-Year-Without-Rain-International-Standard-Version-2010-500x500.jpg">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">ICE CREAM-SELENA GOMEZ</h6>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img class="bd-placeholder-img" width="100%" height="96"
+                                        src="https://c.saavncdn.com/652/Chitta-Kurta-English-2019-20191206080831-500x500.jpg">
+                                    <rect width="100%" height="100%" fill="#777"></rect>
+
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">CHITTA KURTA-KARAN AUJLA</h6>
+
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic"></h4>
+                        <ol class="list-unstyled mb-0">
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                        </ol>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic"></h4>
+                        <ol class="list-unstyled">
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+                            <li>.</li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <br><br>
+    <hr>
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+            <h3>MeloSphere</h3>
+            <p class="mb-0">The world of music</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
