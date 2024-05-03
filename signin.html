@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign in page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<style>
+  @keyframes rotate-in{
+    0%{opacity:0;
+      transform:rotate(30deg) scale(1.5);}
+    
+    80%{opacity:0.5;
+      transform:rotate(0deg) scale(1);}
+    
+  }
+  body a{
+    text-decoration:none;
+}
+.img_container{
+  overflow:hidden;
+}
+
+</style>
+
+<body style="background-color:#0b1828;min-width:350px">
+  <main class="text-white">
+    <h1 class="h2 text-center pt-4 pb-3"><i class="bi bi-soundwave ">Welcome To Music Area</i></h1>
+    <div class=" row mx-auto" style="height:600px;width:900px">
+      <div class=" img_container p-0 bg-warning col-md-6" style="height:100%">
+        <img
+          src="https://th.bing.com/th/id/R.4f2c73432e52b97e6056935be4cf7d50?rik=wONd%2fxwohj%2bmWw&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1271741%2fimages%2fo-MUSIC-CHOICE-facebook.jpg&ehk=8mmT%2fULDibdBZLVohQ2a2hEdKhV33iwOWGJBD7hKz04%3d&risl=&pid=ImgRaw&r=0"
+          style="width:100%;height:100%; object-fit:cover ;animation:rotate-in 1s ease">
+      </div>
+
+      <div class="col-md-6" style="height:100%;background-color:#203349">
+        <div class="">
+          
+          <form class="signup-form hide  pt-4 p-4">
+            <h2>Sign UP</h2>
+            <h5>Please Enter Your Details</h5>
+            <div class="input-group mb-4">
+              <input type="username" class=" form-control" placeholder="Username"
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text p:3" id="basic-addon2"><i class="bi bi-person"></i></span>
+            </div>
+            <div class="input-group mb-4">
+              <input type="contactnumber" class=" form-control" placeholder="Mobile Number"
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text p:3" id="basic-addon2"><i class="bi bi-person-lines-fill"></i></span>
+            </div>
+            <div class="input-group mb-4">
+              <input type="text" class=" form-control" placeholder="Email"
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text p:3" id="basic-addon2"><i class="bi bi-envelope"></i></span>
+            </div>
+
+            <div class="input-group mb-4">
+              <input type="password" class=" form-control" placeholder="password"
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text p:3" id="basic-addon2"><i class="bi bi-key"></i></span>
+            </div>
+            <div class="input-group mb-4">
+              <input type="password" class=" form-control" placeholder="Confirm-password"
+                aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text p:3" id="basic-addon2"><i class="bi bi-key"></i></span>
+            </div>
+            <div class=" mb-3">
+              <button class="btn btn-lg btn-outline-warning">Sign -up-Free</button>
+              
+              </div>
+              <hr>
+              <div>
+                Follow Us:
+                <div >
+                  <a href=""><i class=" h4 text-white bi bi-facebook"></i></a>
+                  <a href=""><i class=" h4 text-white bi bi-instagram"></i></a>
+                  <a href=""><i class= "h4 text-white bi bi-twitter"></i></a>
+                </div>
+              </div>
+             
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+</body>
+
+
+</html>
