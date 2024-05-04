@@ -1,4 +1,4 @@
-# Music Player Website
+# MELOSPHERE
 
 Welcome to our Music Player Website! 🎶 This project is all about bringing you closer to your favorite music, featuring tracks from various artists. Explore, listen, and enjoy! Here's a comprehensive overview of what our website offers:
 
