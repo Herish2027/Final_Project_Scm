@@ -2,6 +2,7 @@
 
 Welcome to our Music Player Website! 🎶 This project is all about bringing you closer to your favorite music, featuring tracks from various artists. Explore, listen, and enjoy! Here's a comprehensive overview of what our website offers:
 
+
 ## Pages
 
 1. **Home / Index**: Your gateway to a world of music! Discover featured songs, playlists, and trending artists.
@@ -11,12 +12,13 @@ Welcome to our Music Player Website! 🎶 This project is all about bringing you
 5. **Login / Signin**: Access personalized features by logging into your account or sign up to join our musical community.
 6. **Artists Pages**: Immerse yourself in the world of music with dedicated pages for iconic artists like Jass Malik, Diljit, Badshah, Karan Aujla, Justin Bieber, Selena Gomez, and Vilen. Explore their biographies, discographies, and top tracks!
 
+
 ## Technologies Used
 
 - **HTML**: Laying the foundation for our web pages with structured content.
 - **CSS**: Adding style and flair to our website's design, making it visually appealing.
 - **JavaScript**: Powering dynamic interactions such as seamless song playback, playlist management, and more.
-- **Backend Technology**: (Optional) Mention any backend technologies used for user authentication, data management, etc.
+
 
 ## Featured Artists 
 
@@ -30,6 +32,7 @@ Dive into a treasure trove of musical gems from some of the industry's finest ar
 - **Selena Gomez**
 - **Vilen**
 
+
 ## How to Use
 
 1. **Explore**: Navigate effortlessly through our website using the intuitive menu or quick links on each page.
@@ -37,6 +40,7 @@ Dive into a treasure trove of musical gems from some of the industry's finest ar
 3. **Discover**: Dive into artist pages to explore their incredible discographies and discover new favorite tracks.
 4. **Play**: Enjoy seamless music playback directly from your browser with our built-in music player interface.
 5. **Connect**: Need assistance or want to share your feedback? Don't hesitate to reach out to our support team via the contact page.
+
 
 ## REFERENCES 
 
