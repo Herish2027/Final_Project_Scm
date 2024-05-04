@@ -18,7 +18,7 @@ Welcome to our Music Player Website! 🎶 This project is all about bringing you
 - **JavaScript**: Powering dynamic interactions such as seamless song playback, playlist management, and more.
 - **Backend Technology**: (Optional) Mention any backend technologies used for user authentication, data management, etc.
 
-## Featured Artists and Songs
+## Featured Artists 
 
 Dive into a treasure trove of musical gems from some of the industry's finest artists:
 
