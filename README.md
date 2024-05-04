@@ -37,6 +37,9 @@ Welcome to our Music Player Website! This project aims to provide a user-friendl
 5. **Contact Support**: If you encounter any issues or have questions, visit the contact page to reach out to our support team.
 
 ## Contributors
+
 Herish   (2310990688)
+
 Himanshi (2310990689)
+
 Himanshu (2310990690)
