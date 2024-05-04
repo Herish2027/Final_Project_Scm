@@ -38,6 +38,11 @@ Dive into a treasure trove of musical gems from some of the industry's finest ar
 4. **Play**: Enjoy seamless music playback directly from your browser with our built-in music player interface.
 5. **Connect**: Need assistance or want to share your feedback? Don't hesitate to reach out to our support team via the contact page.
 
+## REFERENCES 
+
+https://www.bing.com/search?q=WEBSITES+RELATED+TO+FRONT+END&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=websites+related+to+front+en&sc=1-28&sk=&cvid=1AF3F465905F49BD8AE7E3D1CE0FA638&ghsh=0&ghacc=0&ghpl=
+
+
 ## Contributors
 
 Meet the individuals behind this project:
