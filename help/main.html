@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    <script src="https://kit.fontawesome.com/4ded7eaff7.js" crossorigin="anonymous"></script>
+    <script>
+        
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+    <style>
+    .container-fluid{
+        background-color:black;
+        color:aliceblue;
+        padding-left: 40px;
+    }   
+    button{
+        margin:10px;
+    } 
+    li{
+        list-style-type: none;
+    }
+    #x{
+        background-color:rgba(223, 97, 97, 0.589);
+    }
+    
+</style>
+</head>
+<body>
+    <div class="container-fluid" >
+        
+        <div class="row">
+            <div class="col-sm-1">         
+            <h3 onclick="alert('click on search bar')">Help ?</h3>
+            </div>
+            <div class="col-sm-1" style="padding-left:500px;">
+                <a href="file:///F:/frontpage.html"><h4><small>Home</small></h2></a>
+            </div>
+            <div class="col-sm-1" style="padding-left:200px";>
+                <a href="file:///F:/about.html"><h4><small>About</small></h3></a>
+            </div>
+            <div class="col-sm-1 " style="padding-left:200px";>
+                <a href="file:///F:/contact.html"><h4><small>Contact</small></h4></a>
+            </div>
+    </div>
+</div>
+    <div id="x" class="jumbotron text-center">
+        <h1>A warm welcome!</h1>
+        <p>How can we help you?</p>
+        <div class="searchbar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+            <ul id="myUL">
+                <li><a href="help1.html">Payment help</a></li>
+                <li><a href="help2.html">Account help</a></li>
+                <li><a href="help3.html">Plan help</a></li>
+                <li><a href="help4.html">App help</a></li>
+                <li><a href="help5.html">Device help</a></li>
+                <li><a href="help6.html">Safety and security</a></li>
+              </ul>
+            <!-- <button class="btn btn-primary">submit</button> -->
+          </div>
+
+        <button type="button" onclick="alert('Please select any one')" class="btn btn-primary">search</button>
+    </div>
+    <div id="s"class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="jumbotron text-center">
+                <fieldset>
+                    <img srcset="https://cdn.sanity.io/images/tsbk0zvv/production/a1f5c90620915aba2fc363330ecd1dbff17b7736-128x128.png?w=64&amp;fit=max&amp;auto=format 1x, https://cdn.sanity.io/images/tsbk0zvv/production/a1f5c90620915aba2fc363330ecd1dbff17b7736-128x128.png?w=128&amp;fit=max&amp;auto=format 2x" src="https://cdn.sanity.io/images/tsbk0zvv/production/a1f5c90620915aba2fc363330ecd1dbff17b7736-128x128.png?w=64&amp;fit=max&amp;auto=format" aria-hidden="true" width="64" height="64" dir="ltr" class="sc-pKqro cBTTzF">
+                </fieldset>
+                <h3><b>payment help</b></h3>
+                <p>To update or change your payment details:
+                <br>
+                   1. Log in to your account page.<br>
+                   2. Go to Manage your plan, click Update next to your payment method.<br>
+                   3. Enter a new payment method.
+                    
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="jumbotron text-center">
+                <fieldset>
+                    <img src="https://cdn.sanity.io/images/tsbk0zvv/production/972abc9b7961e17d356b069c8be9dbaaf3ea51f3-128x128.png?w=64&fit=max&auto=format">
+                </fieldset>
+                <h3><b>Account help</b></h3>
+                <p>Can't reset password...<br>
+                   - Old email address?<br>
+                1. You need access to the email address on your Spotify account to open the password reset link we email you.
+                    
+                2.If you don't have access, here are some options:
+                    
+                <!-- 3.Regain access to the email address if possible -->
+                3.Create a new account and start fresh</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="jumbotron text-center">
+                <fieldset>
+                    <img src="https://cdn.sanity.io/images/tsbk0zvv/production/10bb309130cdd8dfe85a0e0e130ecdedc0ca22c6-128x128.png?w=64&fit=max&auto=format">
+                </fieldset>
+                <h3><b>Plan Help</b></h1>
+                <p>Premium Individual
+                    1.All Premium features just for you.
+                    
+                    2.Price varies between countries.
+                    
+                    -Premium Student
+                    Students get 50% off Premium for up to 4 years.
+                    
+                    
+                    -Premium Duo
+                    2 people living together each get their own Premium account for 1 discount price.</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="jumbotron text-center">
+                <fieldset>
+                    <img srcset="https://cdn.sanity.io/images/tsbk0zvv/production/59459c592409b198e88b2b4cd6e4da99306a04fa-128x128.png?w=64&amp;fit=max&amp;auto=format 1x, https://cdn.sanity.io/images/tsbk0zvv/production/59459c592409b198e88b2b4cd6e4da99306a04fa-128x128.png?w=128&amp;fit=max&amp;auto=format 2x" src="https://cdn.sanity.io/images/tsbk0zvv/production/59459c592409b198e88b2b4cd6e4da99306a04fa-128x128.png?w=64&amp;fit=max&amp;auto=format" aria-hidden="true" width="64" height="64" dir="ltr" class="sc-fPrdXf natIs">
+                </fieldset>
+                <h3><b>App Help</b></h3>
+                <p>Create your account:
+                   - Just choose SIGN UP from the login screen in the app.
+                    
+                  -  You can use your email address or phone number.
+                    
+                   - More sign up details are optional, such as gender, date of birth, and what we should call you.</p>
+
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="jumbotron text-center">
+                <img src="https://cdn.sanity.io/images/tsbk0zvv/production/3e2fdd408d9175cbf6dc77fbd24fa0667aec5867-128x128.png?w=64&fit=max&auto=format">
+                <h3><b>Device help</b></h3>
+                <p>Not working?
+                    Make sure your app and devices' software are up-to-date
+                    Restart the Melosphere app
+                    Close any other apps you're not using
+                    Restart your devices</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="jumbotron text-center">
+                <img src="https://cdn.sanity.io/images/tsbk0zvv/production/972abc9b7961e17d356b069c8be9dbaaf3ea51f3-128x128.png?w=64&fit=max&auto=format">
+                <h3><b>Safety and Privacy</b></h3>
+                <p>Your privacy and the security of your personal data are, and always will be, our highest priority.
+
+                    That's why we've created a Privacy Center to highlight some of the important sections of our Privacy Policy and to give you more info about the rights and controls you have in relation to your personal data.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
