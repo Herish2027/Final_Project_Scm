@@ -42,6 +42,42 @@ Dive into a treasure trove of musical gems from some of the industry's finest ar
 5. **Connect**: Need assistance or want to share your feedback? Don't hesitate to reach out to our support team via the contact page.
 
 
+# Features according to Versions:-
+
+
+## Melosphere - Version 1
+
+Welcome to Version 1 of our Music Player Website! 🎵 This version includes basic features to get you started on your musical journey. Here's what you can expect:
+
+
+### Pages
+
+1. **Home / Index**: The landing page of the website, showcasing featured songs or playlists.
+2. **About**: Information about the website, its purpose, and the team behind it.
+3. **Contact**: A page where users can reach out to the website administrators or support team.
+4. **Login**: Allows users to log in to their accounts.
+5. **Signin**: Allows new users to create an account and sign in.
+
+### Content
+
+- **Featured Artists and Songs**: Explore a curated selection of songs from various artists, including their biographies and top tracks.
+
+### Technologies Used
+
+- **HTML**: Used for structuring the web pages.
+- **CSS**: Used for basic styling and design.
+- **Backend Technology**: (To be determined based on future requirements)
+
+## Getting Started
+
+1. **Navigation**: Use the navigation menu or links provided on each page to explore different sections of the website.
+2. **Login/Signin**: Existing users can log in using the login page. New users can create an account and sign in using the signin page.
+3. **Browse Artists**: Explore the featured artists and their music on the home page.
+4. **Contact Support**: Reach out to the website administrators or support team for assistance or inquiries.
+
+
+
+
 ## References 
 
 https://www.bing.com/search?q=WEBSITES+RELATED+TO+FRONT+END&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=websites+related+to+front+en&sc=1-28&sk=&cvid=1AF3F465905F49BD8AE7E3D1CE0FA638&ghsh=0&ghacc=0&ghpl=
