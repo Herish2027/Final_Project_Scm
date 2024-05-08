@@ -78,12 +78,12 @@ Welcome to Version 1 of our Music Player Website! 🎵 This version includes bas
 
 
 
-## References 
+# References 
 
 https://www.bing.com/search?q=WEBSITES+RELATED+TO+FRONT+END&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=websites+related+to+front+en&sc=1-28&sk=&cvid=1AF3F465905F49BD8AE7E3D1CE0FA638&ghsh=0&ghacc=0&ghpl=
 
 
-## Contributors
+# Contributors
 
 Meet the individuals behind this project:
 
