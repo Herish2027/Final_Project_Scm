@@ -11,6 +11,7 @@ Welcome to our Music Player Website! 🎶 This project is all about bringing you
 4. **Contact**: Connect with us! Reach out to our friendly team for feedback, inquiries, or just to say hello.
 5. **Login / Signin**: Access personalized features by logging into your account or sign up to join our musical community.
 6. **Artists Pages**: Immerse yourself in the world of music with dedicated pages for iconic artists like Jass Malik, Diljit, Badshah, Karan Aujla, Justin Bieber, Selena Gomez, and Vilen. Explore their biographies, discographies, and top tracks!
+7. **Premium Page**: Explore premium features and subscription options for an enhanced music experience.
 
 
 ## Technologies Used
@@ -68,7 +69,7 @@ Welcome to Version 1 of our Music Player Website! 🎵 This version includes bas
 - **CSS**: Used for basic styling and design.
 - **Backend Technology**: (To be determined based on future requirements)
 
-## Getting Started
+### Getting Started
 
 1. **Navigation**: Use the navigation menu or links provided on each page to explore different sections of the website.
 2. **Login/Signin**: Existing users can log in using the login page. New users can create an account and sign in using the signin page.
@@ -76,7 +77,7 @@ Welcome to Version 1 of our Music Player Website! 🎵 This version includes bas
 4. **Contact Support**: Reach out to the website administrators or support team for assistance or inquiries.
 
 
-# Music Player Website - Version 2
+## Melosphere - Version 2
 
 Welcome to Version 2 of our Music Player Website! 🎵 In this version, we've introduced new features to enhance your experience. Let's dive in:
 
@@ -99,7 +100,7 @@ Welcome to Version 2 of our Music Player Website! 🎵 In this version, we've in
 - **HTML**: Used for structuring the web pages.
 - **CSS**: Used for basic styling and design.
 
-## Getting Started
+### Getting Started
 
 1. **Navigation**: Use the navigation menu or links provided on each page to explore different sections of the website.
 2. **Login/Signin**: Existing users can log in using the login page. New users can create an account and sign in using the signin page.
