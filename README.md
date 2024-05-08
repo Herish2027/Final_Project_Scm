@@ -76,6 +76,40 @@ Welcome to Version 1 of our Music Player Website! 🎵 This version includes bas
 4. **Contact Support**: Reach out to the website administrators or support team for assistance or inquiries.
 
 
+# Music Player Website - Version 2
+
+Welcome to Version 2 of our Music Player Website! 🎵 In this version, we've introduced new features to enhance your experience. Let's dive in:
+
+### Pages
+
+1. **Home / Index**: The landing page of the website, showcasing featured songs or playlists.
+2. **About**: Information about the website, its purpose, and the team behind it.
+3. **Contact**: A page where users can reach out to the website administrators or support team.
+4. **Login**: Allows users to log in to their accounts.
+5. **Signin**: Allows new users to create an account and sign in.
+6. **Help**: Resources and guides for users to troubleshoot common issues or learn how to use the website effectively.
+7. **Premium Page**: Explore premium features and subscription options for an enhanced music experience.
+
+### Content
+
+- **Featured Artists and Songs**: Discover a wide selection of songs from various artists, including their biographies and top tracks.
+
+### Technologies Used
+
+- **HTML**: Used for structuring the web pages.
+- **CSS**: Used for basic styling and design.
+
+## Getting Started
+
+1. **Navigation**: Use the navigation menu or links provided on each page to explore different sections of the website.
+2. **Login/Signin**: Existing users can log in using the login page. New users can create an account and sign in using the signin page.
+3. **Browse Artists**: Explore the featured artists and their music on the home page.
+4. **Contact Support**: Reach out to the website administrators or support team for assistance or inquiries.
+5. **Help Page**: Access resources and guides on the help page to troubleshoot issues or learn more about the website's features.
+6. **Premium Features**: Check out the premium page to discover exclusive features and subscription options for premium users.
+
+
+
 
 
 # References 
