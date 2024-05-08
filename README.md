@@ -46,7 +46,8 @@ Dive into a treasure trove of musical gems from some of the industry's finest ar
 # Features according to Versions:-
 
 
-## Melosphere - Version 1                                                                             27/05/24
+## Melosphere - Version 1                                                                             
+                                                                                                              27/05/24
 
 Welcome to Version 1 of our Music Player Website! 🎵 This version includes basic features to get you started on your musical journey. Here's what you can expect:
 
@@ -75,7 +76,8 @@ Welcome to Version 1 of our Music Player Website! 🎵 This version includes bas
 4. **Contact Support**: Reach out to the website administrators or support team for assistance or inquiries.
 
 
-## Melosphere - Version 2                                                                                 5/5/24
+## Melosphere - Version 2                                                                                
+                                                                                                              5/5/24
 
 Welcome to Version 2 of our Music Player Website! 🎵 In this version, we've introduced new features to enhance your experience. Let's dive in:
 
