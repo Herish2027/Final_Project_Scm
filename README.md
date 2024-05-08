@@ -66,8 +66,6 @@ Welcome to Version 1 of our Music Player Website! 🎵 This version includes bas
 ### Technologies Used
 
 - **HTML**: Used for structuring the web pages.
-- **CSS**: Used for basic styling and design.
-- **Backend Technology**: (To be determined based on future requirements)
 
 ### Getting Started
 
