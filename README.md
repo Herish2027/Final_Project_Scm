@@ -43,7 +43,7 @@ Dive into a treasure trove of musical gems from some of the industry's finest ar
 5. **Connect**: Need assistance or want to share your feedback? Don't hesitate to reach out to our support team via the contact page.
 
 
-# Features according to Versions:-
+# Specifications According to Versions:-
 
 
 ## Melosphere - Version 1                                                                             
