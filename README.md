@@ -51,11 +51,11 @@ https://www.bing.com/search?q=WEBSITES+RELATED+TO+FRONT+END&qs=n&form=QBRE&sp=-1
 
 Meet the individuals behind this project:
 
-Herish   (2310990688)
+Herish kumar(2310990688)
 
 Himanshi (2310990689)
 
 Himanshu (2310990690)
 
-
+            
 We're passionate about music and dedicated to making your listening experience exceptional. Join us on this musical journey, and let's make magic together! 🎵✨
